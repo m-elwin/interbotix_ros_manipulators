@@ -322,8 +322,7 @@ function install_ros2() {
     git clone -b "$ROS_DISTRO_TO_INSTALL" https://github.com/Interbotix/interbotix_ros_core.git
     git clone -b "$ROS_DISTRO_TO_INSTALL" https://github.com/Interbotix/interbotix_ros_manipulators.git
     git clone -b "$ROS_DISTRO_TO_INSTALL" https://github.com/Interbotix/interbotix_ros_toolboxes.git
-    # TODO(lsinterbotix) remove below when moveit_visual_tools is available in apt repo
-    git clone -b ros2 https://github.com/ros-planning/moveit_visual_tools.git
+    
     if [ "$INSTALL_PERCEPTION" = true ]; then
       rm                                                                                                \
         interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception/COLCON_IGNORE     \

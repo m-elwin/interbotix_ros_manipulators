@@ -23,7 +23,7 @@
   <depend>interbotix_xsarm_sim</depend>
   <depend>interbotix_xsarm_descriptions</depend>
   <depend>interbotix_xsarm_ros_control</depend>
-
+  <depend>moveit_visual_tools</depend>
   <!-- <depend>backward-ros</depend> -->
 
   <test_depend>ament_lint_auto</test_depend>
